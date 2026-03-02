@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_xaga.mk
+    $(LOCAL_DIR)/infinity_xaga.mk

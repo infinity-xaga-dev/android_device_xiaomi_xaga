@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/xaga/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2460
@@ -21,13 +21,14 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # ROM Flags
 TARGET_DISABLE_EPPE := true
-WITH_GMS := true
+WITH_GAPPS := true
+INFINITY_MAINTAINER := coolcatvn
 
 PRODUCT_BRAND := POCO
 PRODUCT_DEVICE := xaga
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 22041216G
-PRODUCT_NAME := lineage_xaga
+PRODUCT_NAME := infinity_xaga
 PRODUCT_SYSTEM_NAME := xaga_global
 
 PRODUCT_CHARACTERISTICS := nosdcard
