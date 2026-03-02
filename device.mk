@@ -7,6 +7,9 @@
 # Inherit from mt6895-common
 $(call inherit-product, device/xiaomi/mt6895-common/mt6895.mk)
 
+# Inherit Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Call the MiuiCamera setup
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera-xaga/device.mk)
 
