@@ -10,6 +10,9 @@ $(call inherit-product, device/xiaomi/mt6895-common/mt6895.mk)
 # Inherit Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
+# Inherit ViperFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Call the MiuiCamera setup
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera-xaga/device.mk)
 
